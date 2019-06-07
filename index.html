@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="vopros1">
+			<div>
+				<h3>Сколько детей в сериале "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet1">5</div>
+			<div class="border py-3 px-3 otvet2">6</div>
+			<div class="border py-3 px-3 otvet3">4</div>
+		</div>
+
+		<div class="vopros2" style="display: none;">
+			<div>
+				<h3>Как ховут самую маленькую дочку из сериала "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet4">Полина</div>
+			<div class="border py-3 px-3 otvet5">Маша</div>
+			<div class="border py-3 px-3 otvet6">Галя</div>
+		</div>
+
+		<div class="vopros3" style="display: none;">
+			<div>
+				<h3>Как ховут маму из сериала "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet7">Маша</div> 
+			<div class="border py-3 px-3 otvet8">Люда</div> 
+			<div class="border py-3 px-3 otvet9">Галя</div> 
+		</div>
+
+		<div class="vopros4" style="display: none;">
+			<div>
+				<h3>Как называют Полину сестры и друзья из сериала "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet10">Полина</div> 
+			<div class="border py-3 px-3 otvet11">Бублик</div> 
+			<div class="border py-3 px-3 otvet12">Пуговка</div> 
+		</div>
+
+		<div class="vopros5" style="display: none;">
+			<div>
+				<h3>Как звали старшую сестру из сериала "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet13">Женя</div> 
+			<div class="border py-3 px-3 otvet14">Люда</div> 
+			<div class="border py-3 px-3 otvet15">Маша</div> 
+		</div>
+
+		<div class="vopros6" style="display: none;">
+			<div>
+				<h3>Как звали папу из сериала "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet16">Сергей</div> 
+			<div class="border py-3 px-3 otvet17">Вениамин</div> 
+			<div class="border py-3 px-3 otvet18">Андрей</div> 
+		</div>
+
+		<div class="vopros7" style="display: none;">
+			<div>
+				<h3>Как звали бабушку из сериала "Папины дочки" ?</h3>
+			</div>
+			<div class="border py-3 px-3 otvet19">Людмила Семеновна</div> 
+			<div class="border py-3 px-3 otvet20">Антонина Семеновна</div> 
+			<div class="border py-3 px-3 otvet21">Мария Ивановна</div> 
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		document.querySelector(".otvet1").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros2").style.display = "block";
+			document.querySelector(".vopros1").style.display = "none";
+		}
+		document.querySelector(".otvet2").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet3").onclick = function(){
+			alert("Неправильно")
+		}
+
+		document.querySelector(".otvet4").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros3").style.display = "block";
+			document.querySelector(".vopros2").style.display = "none";
+		}
+		document.querySelector(".otvet5").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet6").onclick = function(){
+			alert("Неправильно")
+		}
+
+		document.querySelector(".otvet7").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet8").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros4").style.display = "block";
+			document.querySelector(".vopros3").style.display = "none";
+		}
+		document.querySelector(".otvet9").onclick = function(){
+			alert("Неправильно")
+		}
+
+		document.querySelector(".otvet10").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet11").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet12").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros5").style.display = "block";
+			document.querySelector(".vopros4").style.display = "none";
+		}
+
+		document.querySelector(".otvet13").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet14").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet15").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros6").style.display = "block";
+			document.querySelector(".vopros5").style.display = "none";
+		}
+
+		document.querySelector(".otvet16").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros7").style.display = "block";
+			document.querySelector(".vopros6").style.display = "none";
+		}
+		document.querySelector(".otvet17").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet18").onclick = function(){
+			alert("Неправильно")
+		}
+
+		document.querySelector(".otvet19").onclick = function(){
+			alert("Неправильно")
+		}
+		document.querySelector(".otvet20").onclick = function(){
+			alert("Правильно"),
+			document.querySelector(".vopros1").style.display = "block";
+			document.querySelector(".vopros7").style.display = "none";
+		}
+		document.querySelector(".otvet21").onclick = function(){
+			alert("Неправильно")
+		}
+	</script>
+</body>
+</html>
